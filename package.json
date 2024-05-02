@@ -1,0 +1,17 @@
+{
+  "name": "sit737-workshops",
+  "version": "1.0.0",
+  "description": "SIT737-Workshop Tasks",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server_get.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VishDiavolo/SIT737-Workshops/tree/main/Week2"
+  },
+  "homepage": "https://github.com/ChoudharyNavit22/sit725-2021-t2-prac2#readme",
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}

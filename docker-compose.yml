@@ -1,0 +1,17 @@
+version: "3.8"
+services:
+  app:
+    build: .
+    image: vishuddhasamarasekara/basiccalculator:1.1.1
+    ports:
+      - "3043:3040"
+    environment:
+      - PORT=3043
+    container_name: my-cal1.1.1
+    networks:
+      - my-net
+    restart: always # Restart policy
+
+networks:
+  my-net:
+    driver: bridge
